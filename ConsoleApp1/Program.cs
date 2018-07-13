@@ -18,7 +18,7 @@ namespace ConsoleApp1
                     products[i]._name = productname;
                     products[i]._id = i;
                     products[i]._price = 2500;
-                    Console.WriteLine("Product {0} -Book: (id={1},name={2},price={3}) - computeTax = {4}", i, products[i].id, products[i].name, products[i].price, products[i].computeTax());
+                    Console.WriteLine("Product {0} -Book: (id={1},name={2},price={3}) - computeTax = {4}", i, products[i]._id, products[i]._name, products[i]._price, products[i].computeTax());
                 }
                 else {
 
@@ -27,7 +27,7 @@ namespace ConsoleApp1
                     products[i]._name = productname;
                     products[i]._id = i;
                     products[i]._price = 5000;
-                    Console.WriteLine("Product {0} -Phone: (id={1},name={2},price={3}) - computeTax = {4}", i, products[i].id, products[i].name, products[i].price, products[i].computeTax());
+                    Console.WriteLine("Product {0} -Phone: (id={1},name={2},price={3}) - computeTax = {4}", i, products[i]._id, products[i]._name, products[i]._price, products[i].computeTax());
 
                 }
             }
